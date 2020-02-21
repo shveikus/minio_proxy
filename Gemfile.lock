@@ -903,6 +903,7 @@ GEM
     ffi (1.11.3-java)
     jmespath (1.4.0)
     method_source (0.9.2)
+    minitest (5.14.0)
     mustermann (1.1.0)
       ruby2_keywords (~> 0.0.1)
     pry (0.12.2)
@@ -915,6 +916,9 @@ GEM
     rack (2.0.8)
     rack-protection (2.0.8.1)
       rack
+    rack-test (1.1.0)
+      rack (>= 1.0, < 3)
+    rake (13.0.1)
     ruby2_keywords (0.0.1)
     sinatra (2.0.8.1)
       mustermann (~> 1.0)
@@ -936,9 +940,12 @@ PLATFORMS
 DEPENDENCIES
   aws-sdk (~> 3)
   dotenv
+  minitest (~> 5.14)
   pry
+  rack-test (~> 1.1)
+  rake
   sinatra (~> 2.0.8.1)
   thin (~> 1.7)
 
 BUNDLED WITH
-   2.0.2
+   2.1.4
