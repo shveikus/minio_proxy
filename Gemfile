@@ -4,7 +4,7 @@ source 'https://rubygems.org'
 
 gem 'aws-sdk', '~> 3'
 gem 'dotenv'
-gem 'sinatra', '~> 2.0.8.1'
+gem 'sinatra', '~> 2.2.0'
 gem 'thin', '~> 1.7'
 gem 'minitest', '~> 5.14'
 gem 'rake'
