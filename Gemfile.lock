@@ -901,7 +901,7 @@ GEM
     eventmachine (1.2.7)
     eventmachine (1.2.7-java)
     ffi (1.11.3-java)
-    jmespath (1.4.0)
+    jmespath (1.6.1)
     method_source (0.9.2)
     minitest (5.14.0)
     mustermann (1.1.0)
